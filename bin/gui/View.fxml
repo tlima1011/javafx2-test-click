@@ -21,5 +21,6 @@
       <Button fx:id="btSub" layoutX="89.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtSubAction" text="Sub" />
       <Button fx:id="btMul" layoutX="142.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtMulAction" text="Mult" />
       <Button fx:id="btDiv" layoutX="202.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtDivAction" text="Div" />
+      <Button fx:id="btReset" layoutX="248.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtResetAction" text="Reset" />
    </children>
 </AnchorPane>
