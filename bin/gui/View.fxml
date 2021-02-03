@@ -4,14 +4,22 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
    <children>
-      <Label layoutX="137.0" layoutY="34.0" text="CALCULATE SUM" textAlignment="CENTER" textFill="#cd0909" />
+      <Label layoutX="146.0" layoutY="24.0" text="CALCULATE" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Sans Demibold" size="21.0" />
+         </font>
+      </Label>
       <TextField fx:id="txtNumber1" layoutX="28.0" layoutY="73.0" promptText="First Number" />
       <TextField fx:id="txtNumber2" layoutX="28.0" layoutY="107.0" promptText="Second Number" />
       <Button fx:id="btSum" layoutX="34.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtSumAction" text="Sum" />
       <Label layoutX="34.0" layoutY="214.0" text="Result =" />
       <Label fx:id="labelResult" layoutX="89.0" layoutY="214.0" />
+      <Button fx:id="btSub" layoutX="89.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtSubAction" text="Sub" />
+      <Button fx:id="btMul" layoutX="142.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtMulAction" text="Mult" />
+      <Button fx:id="btDiv" layoutX="202.0" layoutY="163.0" mnemonicParsing="false" onAction="#onBtDivAction" text="Div" />
    </children>
 </AnchorPane>
